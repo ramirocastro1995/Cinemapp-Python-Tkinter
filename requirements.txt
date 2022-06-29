@@ -1,2 +1,2 @@
-Tkinter==3.10.5
+Tkinter==3.9.13
 IMDbPY==2021.4.18
