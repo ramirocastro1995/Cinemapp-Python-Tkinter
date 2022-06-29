@@ -47,7 +47,7 @@ hor_scroll.pack(side=BOTTOM, fill=X)
 
 
 #textbox
-my_text = Text(my_frame,yscrollcommand=text_scroll.set, wrap="none", xscrollcommand=hor_scroll.set)
+my_text = Text(my_frame,yscrollcommand=text_scroll.set, wrap="word", xscrollcommand=hor_scroll.set)
 my_text.pack()
 
 #scrollbars
